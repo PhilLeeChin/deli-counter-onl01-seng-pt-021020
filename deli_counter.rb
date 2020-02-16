@@ -2,7 +2,7 @@
 def line(array)
   if array.size == 0
     puts "The line is currently empty."
-  elsif array > 0
+  elsif array.size > 0
     count = 1
     newarr = []
     array.each do |i|
