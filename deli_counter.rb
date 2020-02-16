@@ -17,3 +17,9 @@ def take_a_number(array, customer)
   array.push(customer)
   puts "Welcome, #{customer}. You are number #{array.size} in line."
 end
+
+def now_serving(array)
+  if array.size == 0
+    puts "There is nobody waiting to be served!"
+  end
+end
