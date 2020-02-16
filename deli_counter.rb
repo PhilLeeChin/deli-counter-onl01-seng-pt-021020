@@ -8,5 +8,6 @@ def line(array)
     array.each do |i|
       newarr << ("The line is currently: #{count}. #{i}")
       count += 1
+    end
   end
 end
