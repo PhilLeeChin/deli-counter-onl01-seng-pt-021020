@@ -2,7 +2,7 @@
 def line()
   if katz_deli == 0
     puts "The line is currently empty."
-  else
+  elsif
     count = 1
     newarr = []
     other_deli.each do |i|
