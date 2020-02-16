@@ -12,3 +12,9 @@ def line(array)
     puts "The line is currently: #{newarr.join(" ")}"
   end
 end
+
+def take_a_number(array, customer)
+count = 1
+  if array.size == 0
+    puts "There is nobody in line."
+  end
