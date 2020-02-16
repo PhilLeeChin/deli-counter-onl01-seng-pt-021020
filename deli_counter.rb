@@ -6,4 +6,5 @@ def line(katz_deli)
     count += 1
   else
     puts "The line is currently empty."
+  end
 end
